@@ -8,7 +8,7 @@ export default props => {
       <h4>{props.name}</h4>
       <p>{props.description}</p>
       <p>{props.location[0]}</p>
-      <a href={urlString}>Google Map Link</a>
+      <a href={urlString} className="btn btn-warning">Google Map Link</a>
     </div>
   );
 }

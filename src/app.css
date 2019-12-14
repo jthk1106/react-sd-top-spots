@@ -12,7 +12,7 @@ body {
   margin-left: 2%;
 }
 
-a {
+/* a {
   background-color: red;
   box-shadow: 0 2px 0 darkred;
   color: white;
@@ -28,4 +28,4 @@ a:hover {
 a:active {
   box-shadow: none;
   top: 2px;
-}
+} */
