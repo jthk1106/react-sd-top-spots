@@ -1,3 +1,31 @@
 body {
-  background-image: linear-gradient(to right, red , yellow);
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.titleBox {
+  border: 5px solid white;
+  margin: 4%;
+}
+
+.titleBoxContents {
+  color: white;
+  margin-left: 2%;
+}
+
+a {
+  background-color: red;
+  box-shadow: 0 2px 0 darkred;
+  color: white;
+  padding: 0.3em 1.5em;
+  position: relative;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ce0606;
+}
+
+a:active {
+  box-shadow: none;
+  top: 2px;
 }
